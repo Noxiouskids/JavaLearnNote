@@ -1,0 +1,32 @@
+//1
+   static int sum = 0;
+    /*public static void test03(int a){
+       sum += a;
+       if(a<5){
+           a = a+1;
+           test03(a);
+       }
+       System.out.println(sum);
+
+   }*/
+    //2
+    //888888888888888888888  为什么1错误？
+    public static int test03(int a){
+        sum += a;
+        if(a<5){
+            a = a+1;
+            test03(a);
+
+        }else{
+            System.out.println("over");
+        }
+        return sum;
+    }
+    public static void main(String[] args) {
+
+        //test03(1);
+        System.out.println(test03(1));
+
+
+    }
+}
