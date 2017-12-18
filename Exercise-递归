@@ -1,0 +1,15 @@
+//10阶乘
+public class JieChen{
+    public static long factorial(int n){
+        if(n==1){
+          System.out.println(1);//一定要加return语句
+          return 1；
+        }else{
+          return n*factorial(n-1);
+        }
+    }
+    public static void main(String[] args){
+    System.out.println(factorial(10);
+   
+    }
+}
