@@ -5,7 +5,7 @@ public class JieChen{
           System.out.println(1);//一定要加return语句
           return 1；
         }else{
-          return n*factorial(n-1);
+          return n*factorial(n-1);//调用自己
         }
     }
     public static void main(String[] args){
