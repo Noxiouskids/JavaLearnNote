@@ -1,0 +1,13 @@
+public static int ni(int a,int d){
+            int b = a+1;
+            int c = a+7;
+            d = ++d;
+            int e = d;
+            if(a <= 23){
+                System.out.println("第二次"+"\t"+b+"星期"+d);
+                System.out.println("第三次"+"\t"+c+"星期"+e);
+            }
+            return a;
+        }
+        在命名方法之前定义了类型int，所以后面需要return返回值
+        不知道为什么，return，任何值，都可以算出来
